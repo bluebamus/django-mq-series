@@ -21,9 +21,6 @@ This repository covers mq and pus/sub learning projects for redis, rabbitmq, kaf
   - [Spring Websocket & STOMP - 실시간 채팅 기능](https://velog.io/@toyou4203/%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%B1%84%ED%8C%85-%EA%B8%B0%EB%8A%A5)
   - 상위 링크의 본문에 있는 방법으로 해결 가능
     - rabbitmq-plugins.bat list 입력
-- how to run the celery on window : python -m celery -A django_celery worker -l info -P gevent
-- how to access the rabbitMQ with browser : http://localhost:15672/
-  - id : guest, password : guest
 
 ### class info
 
@@ -31,6 +28,28 @@ This repository covers mq and pus/sub learning projects for redis, rabbitmq, kaf
 - original github : [YT-Django-Celery-Series-Intro-Install-Run-Task](https://github.com/veryacademy/YT-Django-Celery-Series-Intro-Install-Run-Task)
 
 ### note
+- rabbitMQ
+  - how to access the rabbitMQ with browser : http://localhost:15672/
+  - id : guest, password : guest
+- celery
+  - install : pip install celery
+  - how to run the celery on window : python -m celery -A config worker -l info -P gevent
+- flower
+  - install : pip install flower
+  - how to access the rabbitMQ with browser : http://localhost:5555/
+  - how to run the flower : celery -A config flower --port=5555
+- celery-beat
+  - install : pip install django-celery-beat
+  - how to run the celery-beat : celery -A config beat -l INFO
+  - how to run the celery-beat with database scheduler : celery -A config beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    - remove CELERY_BEAT_SCHEDULE parameter at settings.py
+- celery-result
+  - install : pip install django-celery-result
+  - update settins.py
+    - add "django_celery_results" in INSTALLED_APPS =[]
+    - add CELERY_RESULT_BACKEND = "django-db"
+  - run migrate
+  - monitoring method : admin page
 
 ### reference :
 

@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     "django_extensions",
     "task1",
     "task2",
+    "task3",
+    "django_celery_beat",
+    "django_celery_results",
 ]
 
 MIDDLEWARE = [
@@ -145,3 +148,30 @@ EMAIL_HOST_PASSWORD = "test1324"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+# CELERY_BEAT_SCHEDULE = {
+#     "scheduled_task": {
+#         "task": "task1.tasks.add",
+#         "schedule": 5.0,
+#         "args": (10, 10),
+#     },
+#     "database": {
+#         "task": "task3.tasks.bkup",
+#         "schedule": 5.0,
+#     },
+# }
+
+CELERY_BROKER_URL = "amqp://guest:guest@localhost:5672//"
+CELERY_RESULT_BACKEND = "django-db"
+
+CELERY_RESULT_EXTENDED = True
+
+# CELERY_ACCEPT_CONTENT = ['application/json']
+# CELERY_TASK_SERIALIZER  = 'json'
+# CELERY_RESULT_SERIALIZER  = 'json'
+# CELERY_TIMEZONE = 'Asia/Seoul' # = TIME_ZONE
+# CELERY_TASK_TRACK_STARTED = True
+# CELERY_RESULT_EXPIRES     = 60*60*24*30 # Results expire after 1 month
+
+
+# DJANGO_CELERY_RESULTS_TASK_ID_MAX_LENGTH = 191
