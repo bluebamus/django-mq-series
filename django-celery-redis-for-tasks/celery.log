@@ -1,0 +1,332 @@
+[2023-03-10 23:21:47,499: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-03-10 23:21:51,590: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-10 23:21:58,731: INFO/MainProcess] mingle: all alone
+[2023-03-10 23:22:06,917: WARNING/MainProcess] F:\project\django\github\project_env\django-redis\Lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-03-10 23:22:06,917: INFO/MainProcess] celery@bluebamus-home ready.
+[2023-03-10 23:22:09,786: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-10 23:22:13,727: INFO/MainProcess] Task task1.tasks.sample.working[180e86da-1354-4dfe-98c6-f1b56c6b6aa9] received
+[2023-03-10 23:22:14,039: INFO/MainProcess] Task task1.tasks.sample.working[2123cc0b-bf6d-4ff7-8429-bed9d6aa0066] received
+[2023-03-10 23:22:17,800: INFO/MainProcess] Task task1.tasks.sample.working[180e86da-1354-4dfe-98c6-f1b56c6b6aa9] succeeded in 4.062999999994645s: '3번째, 일을 끝냈다.'
+[2023-03-10 23:22:18,113: INFO/MainProcess] Task task1.tasks.sample.working[2123cc0b-bf6d-4ff7-8429-bed9d6aa0066] succeeded in 4.062000000005355s: '4번째, 일을 끝냈다.'
+[2023-03-10 23:47:46,404: INFO/MainProcess] Task task1.tasks.add.add[42a1c066-1ff3-4db1-a914-4ae6cc5dc0bb] received
+[2023-03-10 23:47:47,416: WARNING/MainProcess] 1 + 2 = 3
+[2023-03-10 23:47:47,424: INFO/MainProcess] Task task1.tasks.add.add[02112cda-d12a-47df-bf1c-1aaff3f53554] received
+[2023-03-10 23:47:47,424: INFO/MainProcess] Task task1.tasks.add.add[42a1c066-1ff3-4db1-a914-4ae6cc5dc0bb] succeeded in 1.0s: 3
+[2023-03-10 23:47:48,426: WARNING/MainProcess] 3 + 3 = 6
+[2023-03-10 23:47:48,434: INFO/MainProcess] Task task1.tasks.add.add[03e60099-a30d-4418-82d4-f85642da601f] received
+[2023-03-10 23:47:48,435: INFO/MainProcess] Task task1.tasks.add.add[02112cda-d12a-47df-bf1c-1aaff3f53554] succeeded in 1.0150000000139698s: 6
+[2023-03-10 23:47:49,437: WARNING/MainProcess] 6 + 4 = 10
+[2023-03-10 23:47:49,438: INFO/MainProcess] Task task1.tasks.add.add[2da80824-6d40-49c7-8301-b1f53989368b] received
+[2023-03-10 23:47:49,438: INFO/MainProcess] Task task1.tasks.add.add[03e60099-a30d-4418-82d4-f85642da601f] succeeded in 1.0s: 10
+[2023-03-10 23:47:50,441: WARNING/MainProcess] 10 + 5 = 15
+[2023-03-10 23:47:50,441: INFO/MainProcess] Task task1.tasks.add.add[2da80824-6d40-49c7-8301-b1f53989368b] succeeded in 1.0s: 15
+[2023-03-11 00:08:14,276: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-03-11 00:08:16,319: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-11 00:08:23,435: INFO/MainProcess] mingle: all alone
+[2023-03-11 00:08:33,663: WARNING/MainProcess] F:\project\django\github\project_env\django-redis\Lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-03-11 00:08:33,663: INFO/MainProcess] celery@bluebamus-home ready.
+[2023-03-11 00:08:34,773: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-11 00:08:55,751: INFO/MainProcess] Task task1.tasks.add.add[9cbcafad-b10e-42f1-a075-f7b4e688a880] received
+[2023-03-11 00:08:55,753: INFO/MainProcess] Task task1.tasks.add.add[a40e7c09-a4f9-4d4a-b5b5-6a02e114f4d0] received
+[2023-03-11 00:08:58,796: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:08:58,796: INFO/MainProcess] Task task1.tasks.add.add[a40e7c09-a4f9-4d4a-b5b5-6a02e114f4d0] succeeded in 3.0469999999913853s: 20
+[2023-03-11 00:08:58,810: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:08:58,810: INFO/MainProcess] Task task1.tasks.add.add[9cbcafad-b10e-42f1-a075-f7b4e688a880] succeeded in 3.062000000005355s: 20
+[2023-03-11 00:09:00,753: INFO/MainProcess] Task task1.tasks.add.add[09e23371-40fb-4ff6-a6ac-253323a27393] received
+[2023-03-11 00:09:01,756: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:01,757: INFO/MainProcess] Task task1.tasks.add.add[09e23371-40fb-4ff6-a6ac-253323a27393] succeeded in 1.0s: 20
+[2023-03-11 00:09:05,755: INFO/MainProcess] Task task1.tasks.add.add[a025926c-2496-4823-9757-cdcf73e82656] received
+[2023-03-11 00:09:06,756: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:06,757: INFO/MainProcess] Task task1.tasks.add.add[a025926c-2496-4823-9757-cdcf73e82656] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:09:10,754: INFO/MainProcess] Task task1.tasks.add.add[3e66346c-de27-492e-b557-89e5166d010a] received
+[2023-03-11 00:09:11,756: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:11,756: INFO/MainProcess] Task task1.tasks.add.add[3e66346c-de27-492e-b557-89e5166d010a] succeeded in 1.0s: 20
+[2023-03-11 00:09:15,755: INFO/MainProcess] Task task1.tasks.add.add[dba33e0e-5616-4d77-bc31-aef8e3f420a6] received
+[2023-03-11 00:09:16,757: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:16,757: INFO/MainProcess] Task task1.tasks.add.add[dba33e0e-5616-4d77-bc31-aef8e3f420a6] succeeded in 1.0s: 20
+[2023-03-11 00:09:20,754: INFO/MainProcess] Task task1.tasks.add.add[7bad6a44-6e71-4e09-a000-acaa84a38b39] received
+[2023-03-11 00:09:21,757: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:21,757: INFO/MainProcess] Task task1.tasks.add.add[7bad6a44-6e71-4e09-a000-acaa84a38b39] succeeded in 1.0s: 20
+[2023-03-11 00:09:25,754: INFO/MainProcess] Task task1.tasks.add.add[bfa28993-316b-473a-b4f0-cdb2c271e81b] received
+[2023-03-11 00:09:26,757: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:26,758: INFO/MainProcess] Task task1.tasks.add.add[bfa28993-316b-473a-b4f0-cdb2c271e81b] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:09:30,754: INFO/MainProcess] Task task1.tasks.add.add[1541d685-4118-491e-879c-8b4ed2d4b536] received
+[2023-03-11 00:09:31,757: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:31,757: INFO/MainProcess] Task task1.tasks.add.add[1541d685-4118-491e-879c-8b4ed2d4b536] succeeded in 1.0s: 20
+[2023-03-11 00:09:35,755: INFO/MainProcess] Task task1.tasks.add.add[03126c43-d4d9-4746-a088-9c6737dc8258] received
+[2023-03-11 00:09:36,757: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:36,757: INFO/MainProcess] Task task1.tasks.add.add[03126c43-d4d9-4746-a088-9c6737dc8258] succeeded in 1.0s: 20
+[2023-03-11 00:09:40,756: INFO/MainProcess] Task task1.tasks.add.add[507d8690-e735-4e82-b2d3-57b5998dddfc] received
+[2023-03-11 00:09:41,757: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:41,758: INFO/MainProcess] Task task1.tasks.add.add[507d8690-e735-4e82-b2d3-57b5998dddfc] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:09:45,755: INFO/MainProcess] Task task1.tasks.add.add[53168b8b-4c70-4394-ae80-1645393a3885] received
+[2023-03-11 00:09:46,758: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:46,758: INFO/MainProcess] Task task1.tasks.add.add[53168b8b-4c70-4394-ae80-1645393a3885] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:09:50,757: INFO/MainProcess] Task task1.tasks.add.add[ed8c8dbe-af04-46ea-89cc-e997c50aa0da] received
+[2023-03-11 00:09:51,758: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:51,759: INFO/MainProcess] Task task1.tasks.add.add[ed8c8dbe-af04-46ea-89cc-e997c50aa0da] succeeded in 1.0s: 20
+[2023-03-11 00:09:55,755: INFO/MainProcess] Task task1.tasks.add.add[435622ab-9d8e-4fbf-a50b-58d58d0e1f7b] received
+[2023-03-11 00:09:56,758: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:09:56,758: INFO/MainProcess] Task task1.tasks.add.add[435622ab-9d8e-4fbf-a50b-58d58d0e1f7b] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:10:00,757: INFO/MainProcess] Task task1.tasks.add.add[620662af-839a-42c2-bc5c-33fb2d867d82] received
+[2023-03-11 00:10:01,758: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:10:01,759: INFO/MainProcess] Task task1.tasks.add.add[620662af-839a-42c2-bc5c-33fb2d867d82] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:10:05,757: INFO/MainProcess] Task task1.tasks.add.add[d266cbfe-2986-493f-9be2-012817d36205] received
+[2023-03-11 00:10:06,759: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:10:06,760: INFO/MainProcess] Task task1.tasks.add.add[d266cbfe-2986-493f-9be2-012817d36205] succeeded in 1.0s: 20
+[2023-03-11 00:10:10,758: INFO/MainProcess] Task task1.tasks.add.add[da0078e0-23ed-46ef-a231-3df6a75bc8f7] received
+[2023-03-11 00:10:11,759: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:10:11,759: INFO/MainProcess] Task task1.tasks.add.add[da0078e0-23ed-46ef-a231-3df6a75bc8f7] succeeded in 1.0s: 20
+[2023-03-11 00:10:15,758: INFO/MainProcess] Task task1.tasks.add.add[a1fb7c90-8e0e-48d4-979b-a6fa67424277] received
+[2023-03-11 00:10:16,760: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:10:16,760: INFO/MainProcess] Task task1.tasks.add.add[a1fb7c90-8e0e-48d4-979b-a6fa67424277] succeeded in 1.0s: 20
+[2023-03-11 00:10:20,758: INFO/MainProcess] Task task1.tasks.add.add[582c3fa9-6163-411f-b3f9-e01e71b3d8de] received
+[2023-03-11 00:10:21,761: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:10:21,761: INFO/MainProcess] Task task1.tasks.add.add[582c3fa9-6163-411f-b3f9-e01e71b3d8de] succeeded in 1.0s: 20
+[2023-03-11 00:10:25,758: INFO/MainProcess] Task task1.tasks.add.add[2c3c0027-412b-42f1-bd71-d23df9ab08bf] received
+[2023-03-11 00:10:26,761: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:10:26,761: INFO/MainProcess] Task task1.tasks.add.add[2c3c0027-412b-42f1-bd71-d23df9ab08bf] succeeded in 1.0s: 20
+[2023-03-11 00:11:49,691: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-03-11 00:11:51,735: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-11 00:11:58,872: INFO/MainProcess] mingle: all alone
+[2023-03-11 00:12:09,058: WARNING/MainProcess] F:\project\django\github\project_env\django-redis\Lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-03-11 00:12:09,058: INFO/MainProcess] celery@bluebamus-home ready.
+[2023-03-11 00:12:11,970: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-11 00:13:06,013: INFO/MainProcess] Task task1.tasks.add.add[9b72f9ec-b1d3-4d9d-8e12-8a7b02d0c67e] received
+[2023-03-11 00:13:06,016: INFO/MainProcess] Task task1.tasks.add.add[59de51be-cf60-49b0-bb10-0d95171dbec2] received
+[2023-03-11 00:13:09,073: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:09,073: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:09,074: INFO/MainProcess] Task task1.tasks.add.add[59de51be-cf60-49b0-bb10-0d95171dbec2] succeeded in 3.062000000005355s: 20
+[2023-03-11 00:13:09,074: INFO/MainProcess] Task task1.tasks.add.add[9b72f9ec-b1d3-4d9d-8e12-8a7b02d0c67e] succeeded in 3.062000000005355s: 20
+[2023-03-11 00:13:11,016: INFO/MainProcess] Task task1.tasks.add.add[981abbeb-0219-4133-9015-29e8b6d6f04e] received
+[2023-03-11 00:13:12,018: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:12,018: INFO/MainProcess] Task task1.tasks.add.add[981abbeb-0219-4133-9015-29e8b6d6f04e] succeeded in 1.0s: 20
+[2023-03-11 00:13:16,016: INFO/MainProcess] Task task1.tasks.add.add[b48f020e-2091-4099-852d-54cbed7c6d4a] received
+[2023-03-11 00:13:17,019: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:17,019: INFO/MainProcess] Task task1.tasks.add.add[b48f020e-2091-4099-852d-54cbed7c6d4a] succeeded in 1.0s: 20
+[2023-03-11 00:13:21,016: INFO/MainProcess] Task task1.tasks.add.add[bd6fcb5a-8a2a-4c96-bfca-8ac6b7919060] received
+[2023-03-11 00:13:22,018: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:22,018: INFO/MainProcess] Task task1.tasks.add.add[bd6fcb5a-8a2a-4c96-bfca-8ac6b7919060] succeeded in 1.0s: 20
+[2023-03-11 00:13:26,018: INFO/MainProcess] Task task1.tasks.add.add[fc1792d5-3c00-4c40-af8b-bdd4172f4df1] received
+[2023-03-11 00:13:27,019: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:27,020: INFO/MainProcess] Task task1.tasks.add.add[fc1792d5-3c00-4c40-af8b-bdd4172f4df1] succeeded in 1.0s: 20
+[2023-03-11 00:13:31,017: INFO/MainProcess] Task task1.tasks.add.add[1d29c19b-8fb7-45ed-b638-f68c3e559a00] received
+[2023-03-11 00:13:32,019: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:32,019: INFO/MainProcess] Task task1.tasks.add.add[1d29c19b-8fb7-45ed-b638-f68c3e559a00] succeeded in 1.0s: 20
+[2023-03-11 00:13:36,018: INFO/MainProcess] Task task1.tasks.add.add[f25e0490-f54c-4531-a6bf-eef33ffbb52c] received
+[2023-03-11 00:13:37,020: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:37,020: INFO/MainProcess] Task task1.tasks.add.add[f25e0490-f54c-4531-a6bf-eef33ffbb52c] succeeded in 1.0s: 20
+[2023-03-11 00:13:41,018: INFO/MainProcess] Task task1.tasks.add.add[71c99805-eedf-4747-9403-383e1192b3b6] received
+[2023-03-11 00:13:42,020: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:42,020: INFO/MainProcess] Task task1.tasks.add.add[71c99805-eedf-4747-9403-383e1192b3b6] succeeded in 1.0s: 20
+[2023-03-11 00:13:46,018: INFO/MainProcess] Task task1.tasks.add.add[ee890198-8c4a-4a38-bf80-fa0a208d9c6c] received
+[2023-03-11 00:13:47,021: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:47,021: INFO/MainProcess] Task task1.tasks.add.add[ee890198-8c4a-4a38-bf80-fa0a208d9c6c] succeeded in 1.0s: 20
+[2023-03-11 00:13:51,020: INFO/MainProcess] Task task1.tasks.add.add[cdfd29ee-4f84-40c6-ac57-33803dcea842] received
+[2023-03-11 00:13:52,022: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:52,022: INFO/MainProcess] Task task1.tasks.add.add[cdfd29ee-4f84-40c6-ac57-33803dcea842] succeeded in 1.0s: 20
+[2023-03-11 00:13:56,020: INFO/MainProcess] Task task1.tasks.add.add[1006269b-54bd-42c5-a0fa-aac8afdf546b] received
+[2023-03-11 00:13:57,023: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:13:57,023: INFO/MainProcess] Task task1.tasks.add.add[1006269b-54bd-42c5-a0fa-aac8afdf546b] succeeded in 1.0s: 20
+[2023-03-11 00:14:01,021: INFO/MainProcess] Task task1.tasks.add.add[62f020f4-11f7-4716-ba11-b73ef76646f0] received
+[2023-03-11 00:14:02,022: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:02,022: INFO/MainProcess] Task task1.tasks.add.add[62f020f4-11f7-4716-ba11-b73ef76646f0] succeeded in 1.0s: 20
+[2023-03-11 00:14:06,021: INFO/MainProcess] Task task1.tasks.add.add[4335d003-adf1-49e3-9832-7e7a91247452] received
+[2023-03-11 00:14:07,023: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:07,023: INFO/MainProcess] Task task1.tasks.add.add[4335d003-adf1-49e3-9832-7e7a91247452] succeeded in 1.0s: 20
+[2023-03-11 00:14:11,022: INFO/MainProcess] Task task1.tasks.add.add[dd6cc947-42e4-4b1d-920e-b6ac524b8bd9] received
+[2023-03-11 00:14:12,024: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:12,024: INFO/MainProcess] Task task1.tasks.add.add[dd6cc947-42e4-4b1d-920e-b6ac524b8bd9] succeeded in 1.0150000000139698s: 20
+[2023-03-11 00:14:16,021: INFO/MainProcess] Task task1.tasks.add.add[000ad9a1-4f2d-4044-92fb-bb814268a7f8] received
+[2023-03-11 00:14:17,023: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:17,023: INFO/MainProcess] Task task1.tasks.add.add[000ad9a1-4f2d-4044-92fb-bb814268a7f8] succeeded in 1.0150000000139698s: 20
+[2023-03-11 00:14:21,022: INFO/MainProcess] Task task1.tasks.add.add[d5e3b301-6210-4343-a06b-771dd5609058] received
+[2023-03-11 00:14:22,024: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:22,024: INFO/MainProcess] Task task1.tasks.add.add[d5e3b301-6210-4343-a06b-771dd5609058] succeeded in 1.0150000000139698s: 20
+[2023-03-11 00:14:26,023: INFO/MainProcess] Task task1.tasks.add.add[2240333a-f563-4546-9022-b4582126b068] received
+[2023-03-11 00:14:27,025: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:27,025: INFO/MainProcess] Task task1.tasks.add.add[2240333a-f563-4546-9022-b4582126b068] succeeded in 1.0s: 20
+[2023-03-11 00:14:31,023: INFO/MainProcess] Task task1.tasks.add.add[00728c26-5958-4cc6-b228-ebf2a55f9ce3] received
+[2023-03-11 00:14:32,025: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:32,025: INFO/MainProcess] Task task1.tasks.add.add[00728c26-5958-4cc6-b228-ebf2a55f9ce3] succeeded in 1.0s: 20
+[2023-03-11 00:14:36,024: INFO/MainProcess] Task task1.tasks.add.add[bd74277e-f9a3-41db-aaf5-775a62dc4dbf] received
+[2023-03-11 00:14:37,026: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:37,026: INFO/MainProcess] Task task1.tasks.add.add[bd74277e-f9a3-41db-aaf5-775a62dc4dbf] succeeded in 1.0s: 20
+[2023-03-11 00:14:41,025: INFO/MainProcess] Task task1.tasks.add.add[a67dd09d-2531-41b5-af0d-10f80ca17b36] received
+[2023-03-11 00:14:42,027: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:42,027: INFO/MainProcess] Task task1.tasks.add.add[a67dd09d-2531-41b5-af0d-10f80ca17b36] succeeded in 1.0s: 20
+[2023-03-11 00:14:46,024: INFO/MainProcess] Task task1.tasks.add.add[8da8ecbb-f644-45f3-ab22-4934a2715b3f] received
+[2023-03-11 00:14:47,027: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:47,027: INFO/MainProcess] Task task1.tasks.add.add[8da8ecbb-f644-45f3-ab22-4934a2715b3f] succeeded in 1.0s: 20
+[2023-03-11 00:14:51,025: INFO/MainProcess] Task task1.tasks.add.add[97406878-e876-4fe2-862c-9d458fdc4db4] received
+[2023-03-11 00:14:52,027: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:52,028: INFO/MainProcess] Task task1.tasks.add.add[97406878-e876-4fe2-862c-9d458fdc4db4] succeeded in 1.0s: 20
+[2023-03-11 00:14:56,025: INFO/MainProcess] Task task1.tasks.add.add[58a0f344-0604-43aa-b7b2-4586bcb131d1] received
+[2023-03-11 00:14:57,027: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:14:57,027: INFO/MainProcess] Task task1.tasks.add.add[58a0f344-0604-43aa-b7b2-4586bcb131d1] succeeded in 1.0s: 20
+[2023-03-11 00:15:01,026: INFO/MainProcess] Task task1.tasks.add.add[254018e3-9239-4ef5-8d38-78237ec3530c] received
+[2023-03-11 00:15:02,028: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:02,028: INFO/MainProcess] Task task1.tasks.add.add[254018e3-9239-4ef5-8d38-78237ec3530c] succeeded in 1.0s: 20
+[2023-03-11 00:15:06,026: INFO/MainProcess] Task task1.tasks.add.add[a469e4b6-a3dc-4d70-9b66-62099cac7144] received
+[2023-03-11 00:15:07,029: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:07,030: INFO/MainProcess] Task task1.tasks.add.add[a469e4b6-a3dc-4d70-9b66-62099cac7144] succeeded in 1.0s: 20
+[2023-03-11 00:15:11,026: INFO/MainProcess] Task task1.tasks.add.add[f109c57c-441e-42fc-bc18-3ae785e26ed3] received
+[2023-03-11 00:15:12,029: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:12,030: INFO/MainProcess] Task task1.tasks.add.add[f109c57c-441e-42fc-bc18-3ae785e26ed3] succeeded in 1.0s: 20
+[2023-03-11 00:15:16,027: INFO/MainProcess] Task task1.tasks.add.add[81aa88b7-0781-42e0-8e8f-72a762ef1cc9] received
+[2023-03-11 00:15:17,029: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:17,030: INFO/MainProcess] Task task1.tasks.add.add[81aa88b7-0781-42e0-8e8f-72a762ef1cc9] succeeded in 1.0s: 20
+[2023-03-11 00:15:21,029: INFO/MainProcess] Task task1.tasks.add.add[52c4132c-f11e-4017-acfc-45e8ca26250c] received
+[2023-03-11 00:15:22,031: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:22,031: INFO/MainProcess] Task task1.tasks.add.add[52c4132c-f11e-4017-acfc-45e8ca26250c] succeeded in 1.0s: 20
+[2023-03-11 00:15:26,029: INFO/MainProcess] Task task1.tasks.add.add[3aace10f-a471-4e58-988f-842eb055cbe1] received
+[2023-03-11 00:15:27,031: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:27,032: INFO/MainProcess] Task task1.tasks.add.add[3aace10f-a471-4e58-988f-842eb055cbe1] succeeded in 1.0s: 20
+[2023-03-11 00:15:31,029: INFO/MainProcess] Task task1.tasks.add.add[fc970b5e-eb42-4257-af53-f9d7149865e2] received
+[2023-03-11 00:15:32,031: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:32,031: INFO/MainProcess] Task task1.tasks.add.add[fc970b5e-eb42-4257-af53-f9d7149865e2] succeeded in 1.0s: 20
+[2023-03-11 00:15:36,029: INFO/MainProcess] Task task1.tasks.add.add[7dcdd564-3c78-4c4b-89ea-ec5c8f009a5c] received
+[2023-03-11 00:15:37,032: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:37,033: INFO/MainProcess] Task task1.tasks.add.add[7dcdd564-3c78-4c4b-89ea-ec5c8f009a5c] succeeded in 1.0s: 20
+[2023-03-11 00:15:41,030: INFO/MainProcess] Task task1.tasks.add.add[f2d5ae0d-486f-4a5f-b864-750b24c1e529] received
+[2023-03-11 00:15:42,032: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:15:42,032: INFO/MainProcess] Task task1.tasks.add.add[f2d5ae0d-486f-4a5f-b864-750b24c1e529] succeeded in 1.0s: 20
+[2023-03-11 00:16:54,652: INFO/MainProcess] Task task1.tasks.add.add[0f9f0ac4-d0e0-4584-a6bf-6469aa12075d] received
+[2023-03-11 00:16:54,654: INFO/MainProcess] Task task1.tasks.add.add[73ebe1f4-ba4d-4964-99a4-2e28980ab525] received
+[2023-03-11 00:16:55,654: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:16:55,654: INFO/MainProcess] Task task1.tasks.add.add[0f9f0ac4-d0e0-4584-a6bf-6469aa12075d] succeeded in 1.0s: 20
+[2023-03-11 00:16:55,656: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:16:55,657: INFO/MainProcess] Task task1.tasks.add.add[73ebe1f4-ba4d-4964-99a4-2e28980ab525] succeeded in 1.0s: 20
+[2023-03-11 00:18:40,360: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-03-11 00:18:42,416: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-11 00:18:49,529: INFO/MainProcess] mingle: all alone
+[2023-03-11 00:18:59,753: WARNING/MainProcess] F:\project\django\github\project_env\django-redis\Lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-03-11 00:18:59,754: INFO/MainProcess] celery@bluebamus-home ready.
+[2023-03-11 00:19:01,897: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-11 00:19:07,186: INFO/MainProcess] Task task1.tasks.add.add[e1099f90-be0d-4b2d-a1dd-c0d9bc858a42] received
+[2023-03-11 00:19:07,188: INFO/MainProcess] Task task1.tasks.add.add[6fc6bd5f-899d-4491-8d66-160e5c6698fa] received
+[2023-03-11 00:19:07,192: INFO/MainProcess] Task task1.tasks.add.add[f0a542b9-b007-443e-a13f-6a19d423884c] received
+[2023-03-11 00:19:10,264: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:10,264: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:10,264: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:10,265: INFO/MainProcess] Task task1.tasks.add.add[e1099f90-be0d-4b2d-a1dd-c0d9bc858a42] succeeded in 3.0789999999979045s: 20
+[2023-03-11 00:19:10,265: INFO/MainProcess] Task task1.tasks.add.add[6fc6bd5f-899d-4491-8d66-160e5c6698fa] succeeded in 3.0789999999979045s: 50
+[2023-03-11 00:19:10,266: INFO/MainProcess] Task task1.tasks.add.add[f0a542b9-b007-443e-a13f-6a19d423884c] succeeded in 3.0789999999979045s: 20
+[2023-03-11 00:19:12,190: INFO/MainProcess] Task task1.tasks.add.add[d752b1ba-7b56-4491-81c8-7f2658bfdee6] received
+[2023-03-11 00:19:13,193: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:13,193: INFO/MainProcess] Task task1.tasks.add.add[d752b1ba-7b56-4491-81c8-7f2658bfdee6] succeeded in 1.0s: 20
+[2023-03-11 00:19:14,190: INFO/MainProcess] Task task1.tasks.add.add[f810c801-ce57-4ca7-a1c1-4d2299ff2d55] received
+[2023-03-11 00:19:15,192: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:15,193: INFO/MainProcess] Task task1.tasks.add.add[f810c801-ce57-4ca7-a1c1-4d2299ff2d55] succeeded in 1.0s: 50
+[2023-03-11 00:19:17,191: INFO/MainProcess] Task task1.tasks.add.add[770d6e6e-c594-4e11-a5de-6d4802b9e3b0] received
+[2023-03-11 00:19:18,193: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:18,194: INFO/MainProcess] Task task1.tasks.add.add[770d6e6e-c594-4e11-a5de-6d4802b9e3b0] succeeded in 1.0s: 20
+[2023-03-11 00:19:21,191: INFO/MainProcess] Task task1.tasks.add.add[f339a634-a787-469e-a93d-e99ec70ef1f2] received
+[2023-03-11 00:19:22,192: INFO/MainProcess] Task task1.tasks.add.add[b3756cdc-9176-4782-840e-6360e767b84c] received
+[2023-03-11 00:19:22,193: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:22,193: INFO/MainProcess] Task task1.tasks.add.add[f339a634-a787-469e-a93d-e99ec70ef1f2] succeeded in 1.0s: 50
+[2023-03-11 00:19:23,194: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:23,194: INFO/MainProcess] Task task1.tasks.add.add[b3756cdc-9176-4782-840e-6360e767b84c] succeeded in 1.0s: 20
+[2023-03-11 00:19:27,193: INFO/MainProcess] Task task1.tasks.add.add[089e6acd-5568-4a5d-bfe8-91ebca6be72a] received
+[2023-03-11 00:19:28,190: INFO/MainProcess] Task task1.tasks.add.add[6f9b15e7-ddb7-4bc2-99c3-392bed1af9f0] received
+[2023-03-11 00:19:28,195: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:28,195: INFO/MainProcess] Task task1.tasks.add.add[089e6acd-5568-4a5d-bfe8-91ebca6be72a] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:19:29,193: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:29,193: INFO/MainProcess] Task task1.tasks.add.add[6f9b15e7-ddb7-4bc2-99c3-392bed1af9f0] succeeded in 1.0s: 50
+[2023-03-11 00:19:32,193: INFO/MainProcess] Task task1.tasks.add.add[82205a1c-1e20-48cb-91d9-4677712cb0fb] received
+[2023-03-11 00:19:33,195: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:33,196: INFO/MainProcess] Task task1.tasks.add.add[82205a1c-1e20-48cb-91d9-4677712cb0fb] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:19:35,192: INFO/MainProcess] Task task1.tasks.add.add[ab3ff8e2-a26d-4b65-b767-8edd8b3fb467] received
+[2023-03-11 00:19:36,194: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:36,194: INFO/MainProcess] Task task1.tasks.add.add[ab3ff8e2-a26d-4b65-b767-8edd8b3fb467] succeeded in 1.0s: 50
+[2023-03-11 00:19:37,193: INFO/MainProcess] Task task1.tasks.add.add[2af6804b-6118-495d-88fe-70925a141ec4] received
+[2023-03-11 00:19:38,195: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:38,196: INFO/MainProcess] Task task1.tasks.add.add[2af6804b-6118-495d-88fe-70925a141ec4] succeeded in 1.0160000000032596s: 20
+[2023-03-11 00:19:42,193: INFO/MainProcess] Task task1.tasks.add.add[b5f91d6c-96e4-4e97-8ec8-9034d85fcf16] received
+[2023-03-11 00:19:42,195: INFO/MainProcess] Task task1.tasks.add.add[cbd258bc-c580-46e6-86ed-3c45004a199e] received
+[2023-03-11 00:19:43,195: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:43,196: INFO/MainProcess] Task task1.tasks.add.add[b5f91d6c-96e4-4e97-8ec8-9034d85fcf16] succeeded in 1.0160000000032596s: 50
+[2023-03-11 00:19:43,197: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:43,197: INFO/MainProcess] Task task1.tasks.add.add[cbd258bc-c580-46e6-86ed-3c45004a199e] succeeded in 1.0s: 20
+[2023-03-11 00:19:47,195: INFO/MainProcess] Task task1.tasks.add.add[ed445a43-c0bc-4946-b8db-bf752ac5b176] received
+[2023-03-11 00:19:48,198: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:48,198: INFO/MainProcess] Task task1.tasks.add.add[ed445a43-c0bc-4946-b8db-bf752ac5b176] succeeded in 1.0s: 20
+[2023-03-11 00:19:49,192: INFO/MainProcess] Task task1.tasks.add.add[49bfded5-2aea-47e3-9b76-6a04a73cdca9] received
+[2023-03-11 00:19:50,195: WARNING/MainProcess] 20 + 30 = 50
+[2023-03-11 00:19:50,196: INFO/MainProcess] Task task1.tasks.add.add[49bfded5-2aea-47e3-9b76-6a04a73cdca9] succeeded in 1.0160000000032596s: 50
+[2023-03-11 00:19:52,196: INFO/MainProcess] Task task1.tasks.add.add[3c598e5e-d758-4e5a-a944-e062b1e39db2] received
+[2023-03-11 00:19:53,199: WARNING/MainProcess] 10 + 10 = 20
+[2023-03-11 00:19:53,199: INFO/MainProcess] Task task1.tasks.add.add[3c598e5e-d758-4e5a-a944-e062b1e39db2] succeeded in 1.0s: 20
+[2023-03-11 01:06:59,407: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-03-11 01:07:01,458: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-11 01:07:08,594: INFO/MainProcess] mingle: all alone
+[2023-03-11 01:07:18,797: WARNING/MainProcess] F:\project\django\github\project_env\django-redis\Lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-03-11 01:07:18,797: INFO/MainProcess] celery@bluebamus-home ready.
+[2023-03-11 01:07:21,886: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-11 01:10:20,664: INFO/MainProcess] Task task1.tasks.progress.django_progress[03fd415e-8d67-49e2-b324-1e55879b00ee] received
+[2023-03-11 01:11:18,233: INFO/MainProcess] Task task1.tasks.progress.django_progress[216ef210-5ffe-4a9a-bd38-ff190cc84fe8] received
+[2023-03-11 01:11:20,970: INFO/MainProcess] Task task1.tasks.progress.django_progress[328c04b4-6a3d-4862-9b0c-faaa45d85018] received
+[2023-03-11 01:11:24,251: INFO/MainProcess] Task task1.tasks.progress.django_progress[5f75eb39-7db6-460a-92e2-26c3aee45ded] received
+[2023-03-11 01:11:37,496: INFO/MainProcess] Task task1.tasks.progress.django_progress[df4daec1-c5af-4b57-b378-fb5f5f81be0f] received
+[2023-03-11 01:11:39,463: INFO/MainProcess] Task task1.tasks.progress.django_progress[bd7a9cc4-4e8a-4825-8147-ef3bf48d89dd] received
+[2023-03-11 01:11:41,548: INFO/MainProcess] Task task1.tasks.progress.django_progress[1bfd4b1e-f672-4d03-9240-c20c08324d3b] received
+[2023-03-11 01:11:43,487: INFO/MainProcess] Task task1.tasks.progress.django_progress[abc68f8f-2bb8-44af-87fc-d55d190ff936] received
+[2023-03-11 01:11:48,519: INFO/MainProcess] Task task1.tasks.progress.django_progress[336df3bc-f60a-46b5-9513-5d67928c6d06] received
+[2023-03-11 01:12:02,815: INFO/MainProcess] Task task1.tasks.progress.django_progress[03fd415e-8d67-49e2-b324-1e55879b00ee] succeeded in 102.14000000001397s: 'Done'
+[2023-03-11 01:12:10,839: INFO/MainProcess] Task task1.tasks.progress.django_progress[cd44b3c9-4283-4c49-b380-e3aed877ef93] received
+[2023-03-11 01:12:11,680: INFO/MainProcess] Task task1.tasks.progress.django_progress[6fa94555-45ec-4793-a95d-8d31582f4af1] received
+[2023-03-11 01:12:12,469: INFO/MainProcess] Task task1.tasks.progress.django_progress[3d51d8df-fa05-4a12-812a-83835de64446] received
+[2023-03-11 01:12:13,313: INFO/MainProcess] Task task1.tasks.progress.django_progress[32013923-5172-42da-ac80-942ada331736] received
+[2023-03-11 01:12:14,093: INFO/MainProcess] Task task1.tasks.progress.django_progress[4ad72f43-f459-4dad-91b0-97f2e1a907a5] received
+[2023-03-11 01:12:14,958: INFO/MainProcess] Task task1.tasks.progress.django_progress[e9b98528-47ab-4d7c-ad73-734741df5547] received
+[2023-03-11 01:12:24,989: INFO/MainProcess] Task task1.tasks.progress.django_progress[f126215a-8fa2-4bb5-a619-acdb6a1e85eb] received
+[2023-03-11 01:12:27,408: INFO/MainProcess] Task task1.tasks.progress.django_progress[0e5c16e3-f8ae-409b-915a-667681cd54d9] received
+[2023-03-11 01:12:30,315: INFO/MainProcess] Task task1.tasks.progress.django_progress[709b6449-5869-4ec7-8b06-883383f79a6d] received
+[2023-03-11 01:12:33,354: INFO/MainProcess] Task task1.tasks.progress.django_progress[8fa8fa23-b1d1-49d9-8d85-637fec73e555] received
+[2023-03-11 01:12:35,134: INFO/MainProcess] Task task1.tasks.progress.django_progress[4f69826d-da0c-4004-8a27-b71abbf4f700] received
+[2023-03-11 01:12:37,063: INFO/MainProcess] Task task1.tasks.progress.django_progress[9429e0ac-3d60-4405-85c5-c7123428ec83] received
+[2023-03-11 01:12:38,759: INFO/MainProcess] Task task1.tasks.progress.django_progress[b690ed21-aaf0-4507-b83b-f757a0c30726] received
+[2023-03-11 01:12:40,336: INFO/MainProcess] Task task1.tasks.progress.django_progress[32979760-e5de-4aff-ade3-9393f8a8e309] received
+[2023-03-11 01:12:42,112: INFO/MainProcess] Task task1.tasks.progress.django_progress[c4a7066b-f018-4540-8d42-b8760e452523] received
+[2023-03-11 01:12:45,909: INFO/MainProcess] Task task1.tasks.progress.django_progress[df97cdfb-d6fd-45fe-8c29-e603dc37fb3f] received
+[2023-03-11 01:12:48,863: INFO/MainProcess] Task task1.tasks.progress.django_progress[8eb5bf93-34eb-4ce2-affb-88375aeff9a7] received
+[2023-03-11 01:13:00,385: INFO/MainProcess] Task task1.tasks.progress.django_progress[216ef210-5ffe-4a9a-bd38-ff190cc84fe8] succeeded in 102.15700000000652s: 'Done'
+[2023-03-11 01:13:03,121: INFO/MainProcess] Task task1.tasks.progress.django_progress[328c04b4-6a3d-4862-9b0c-faaa45d85018] succeeded in 102.15599999998813s: 'Done'
+[2023-03-11 01:13:06,389: INFO/MainProcess] Task task1.tasks.progress.django_progress[5f75eb39-7db6-460a-92e2-26c3aee45ded] succeeded in 102.14100000000326s: 'Done'
+[2023-03-11 01:13:19,643: INFO/MainProcess] Task task1.tasks.progress.django_progress[df4daec1-c5af-4b57-b378-fb5f5f81be0f] succeeded in 102.14100000000326s: 'Done'
+[2023-03-11 01:13:21,593: INFO/MainProcess] Task task1.tasks.progress.django_progress[bd7a9cc4-4e8a-4825-8147-ef3bf48d89dd] succeeded in 102.125s: 'Done'
+[2023-03-11 01:13:23,707: INFO/MainProcess] Task task1.tasks.progress.django_progress[1bfd4b1e-f672-4d03-9240-c20c08324d3b] succeeded in 102.15600000001723s: 'Done'
+[2023-03-11 01:13:25,649: INFO/MainProcess] Task task1.tasks.progress.django_progress[abc68f8f-2bb8-44af-87fc-d55d190ff936] succeeded in 102.17200000002049s: 'Done'
+[2023-03-11 01:13:30,653: INFO/MainProcess] Task task1.tasks.progress.django_progress[336df3bc-f60a-46b5-9513-5d67928c6d06] succeeded in 102.14000000001397s: 'Done'
+[2023-03-11 01:13:50,925: INFO/MainProcess] Task task1.tasks.progress.django_progress[cd44b3c9-4283-4c49-b380-e3aed877ef93] succeeded in 100.07799999997951s: 'Done'
+[2023-03-11 01:13:53,852: INFO/MainProcess] Task task1.tasks.progress.django_progress[6fa94555-45ec-4793-a95d-8d31582f4af1] succeeded in 102.17199999999139s: 'Done'
+[2023-03-11 01:14:40,484: INFO/MainProcess] Task task1.tasks.progress.django_progress[3d51d8df-fa05-4a12-812a-83835de64446] succeeded in 100.09299999999348s: 'Done'
+[2023-03-11 01:14:43,210: INFO/MainProcess] Task task1.tasks.progress.django_progress[32013923-5172-42da-ac80-942ada331736] succeeded in 100.07800000000861s: 'Done'
+[2023-03-11 01:14:46,489: INFO/MainProcess] Task task1.tasks.progress.django_progress[4ad72f43-f459-4dad-91b0-97f2e1a907a5] succeeded in 100.09299999999348s: 'Done'
+[2023-03-11 01:14:59,728: INFO/MainProcess] Task task1.tasks.progress.django_progress[e9b98528-47ab-4d7c-ad73-734741df5547] succeeded in 100.09299999999348s: 'Done'
+[2023-03-11 01:15:01,677: INFO/MainProcess] Task task1.tasks.progress.django_progress[f126215a-8fa2-4bb5-a619-acdb6a1e85eb] succeeded in 100.07799999997951s: 'Done'
+[2023-03-11 01:15:03,784: INFO/MainProcess] Task task1.tasks.progress.django_progress[0e5c16e3-f8ae-409b-915a-667681cd54d9] succeeded in 100.07800000000861s: 'Done'
+[2023-03-11 01:15:05,733: INFO/MainProcess] Task task1.tasks.progress.django_progress[709b6449-5869-4ec7-8b06-883383f79a6d] succeeded in 100.07799999997951s: 'Done'
+[2023-03-11 01:15:10,736: INFO/MainProcess] Task task1.tasks.progress.django_progress[8fa8fa23-b1d1-49d9-8d85-637fec73e555] succeeded in 100.07799999997951s: 'Done'
+[2023-03-11 01:15:31,008: INFO/MainProcess] Task task1.tasks.progress.django_progress[4f69826d-da0c-4004-8a27-b71abbf4f700] succeeded in 100.09400000001187s: 'Done'
+[2023-03-11 01:15:33,938: INFO/MainProcess] Task task1.tasks.progress.django_progress[9429e0ac-3d60-4405-85c5-c7123428ec83] succeeded in 100.07800000000861s: 'Done'
+[2023-03-11 00:54:18,322: INFO/MainProcess] Task task1.tasks.progress.django_progress[b690ed21-aaf0-4507-b83b-f757a0c30726] succeeded in 100.09400000001187s: 'Done'
+[2023-03-11 00:54:21,039: INFO/MainProcess] Task task1.tasks.progress.django_progress[32979760-e5de-4aff-ade3-9393f8a8e309] succeeded in 100.07799999997951s: 'Done'
+[2023-03-11 00:54:24,327: INFO/MainProcess] Task task1.tasks.progress.django_progress[c4a7066b-f018-4540-8d42-b8760e452523] succeeded in 100.11000000001513s: 'Done'
+[2023-03-11 00:54:37,537: INFO/MainProcess] Task task1.tasks.progress.django_progress[df97cdfb-d6fd-45fe-8c29-e603dc37fb3f] succeeded in 100.06299999999464s: 'Done'
+[2023-03-11 00:54:39,501: INFO/MainProcess] Task task1.tasks.progress.django_progress[8eb5bf93-34eb-4ce2-affb-88375aeff9a7] succeeded in 100.09400000001187s: 'Done'

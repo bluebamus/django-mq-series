@@ -34,6 +34,8 @@ This repository covers mq and pus/sub learning projects for redis, rabbitmq, kaf
 - celery
   - install : pip install celery
   - how to run the celery on window : python -m celery -A config worker -l info -P gevent
+  - run with log and pid info : celery -A config worker -l INFO -P threads -c 10 --pi
+dfile="%n.pid" --logfile="%n.log"
 - flower
   - install : pip install flower
   - how to access the rabbitMQ with browser : http://localhost:5555/
@@ -44,12 +46,18 @@ This repository covers mq and pus/sub learning projects for redis, rabbitmq, kaf
   - how to run the celery-beat with database scheduler : celery -A config beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
     - remove CELERY_BEAT_SCHEDULE parameter at settings.py
 - celery-result
-  - install : pip install django-celery-result
+  - install : pip install django-celery-results
   - update settins.py
     - add "django_celery_results" in INSTALLED_APPS =[]
     - add CELERY_RESULT_BACKEND = "django-db"
   - run migrate
   - monitoring method : admin page
+
+## django-celery-redis-for-tasks
+
+### class info
+
+### note
 
 ### reference :
 
