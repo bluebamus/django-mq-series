@@ -54,17 +54,61 @@ dfile="%n.pid" --logfile="%n.log"
   - monitoring method : admin page
 
 ## django-celery-redis-for-tasks
-
 ### class info
+- reference : 
+  - [무작정 시작하기 (1) - 설치 및 실행](https://heodolf.tistory.com/54)
+  - [무작정 시작하기 (2) - Task](https://heodolf.tistory.com/63)
+  - [무작정 시작하기 (3) - Chain](https://heodolf.tistory.com/65)
+  - [무장적 시장하기 (4) - Group과 Chord](https://heodolf.tistory.com/66)
+  - [무작정 시작하기 (5) - Monitoring](https://heodolf.tistory.com/73)
+  - [How to Create a Celery Task Progress Bar in Django](https://www.youtube.com/watch?v=BbPswIqn2VI)
+    - github : [djangoprogressbar](https://github.com/PrettyPrinted/youtube_video_code/tree/master/2020/06/24/How%20to%20Create%20a%20Celery%20Task%20Progress%20Bar%20in%20Django)
 
 ### note
+- celery
+  - install : pip install celery
+  - how to run the celery on window : python -m celery -A config worker -l info -P gevent
+  - run with log and pid info : celery -A config worker -l INFO -P threads -c 10 --pi
+dfile="%n.pid" --logfile="%n.log"
+- flower
+  - install : pip install flower
+  - how to access the rabbitMQ with browser : http://localhost:5555/
+  - how to run the flower : celery -A config flower --port=5555
+- celery-beat
+  - install : pip install django-celery-beat
+  - how to run the celery-beat : celery -A config beat -l INFO
+  - how to run the celery-beat with database scheduler : celery -A config beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    - remove CELERY_BEAT_SCHEDULE parameter at settings.py
+- celery-result
+  - install : pip install django-celery-results
+  - update settins.py
+    - add "django_celery_results" in INSTALLED_APPS =[]
+    - add CELERY_RESULT_BACKEND = "django-db"
+  - run migrate
+  - monitoring method : admin page
+- celery-progress
+  - install : pip install celery-progress
+  - update settins.py
+  - add ""celery_progress" in INSTALLED_APPS =[]
 
-### reference :
+# reference :
+## celery
+- [celerry User Guid](https://docs.celeryq.dev/en/latest/userguide/index.html#guide)
 
-- [official tutorial site](https://www.rabbitmq.com/getstarted.html)
+## celery progress
+- [How to Create a Celery Task Progress Bar in Django](https://www.youtube.com/watch?v=BbPswIqn2VI)
+    - github : [djangoprogressbar](https://github.com/PrettyPrinted/youtube_video_code/tree/master/2020/06/24/How%20to%20Create%20a%20Celery%20Task%20Progress%20Bar%20in%20Django)
+- [Celery Progress Bars for Django](https://github.com/czue/celery-progress)
+- [Managing asynchronous backend tasks with Django and Celery](https://procogia.com/managing-asynchronous-backend-tasks-with-django-and-celery/)
 
-## redis queue study reference:
+## rabbitMQ
+- [official rabbitMQ tutorial site](https://www.rabbitmq.com/getstarted.html)
+- [무작정 시작하기 (1) - 설치 및 실행](https://heodolf.tistory.com/50)
+- [무작정 시작하기 (2) - Publish/Subscribe](https://heodolf.tistory.com/51)
+- [무작정 시작하기 (3) - 환경설정](https://heodolf.tistory.com/53)
 
+## redis queue
+- [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 - [Django에 Celery 적용하기 첫번째 - 1 ](https://lucky516.tistory.com/2)
 - [Django에서 Celery 이용하기 두번째 - 2 ](https://lucky516.tistory.com/3)
 - [Celery beat으로 주기적으로 tasks 수행하기 - 3 ](https://lucky516.tistory.com/18)
@@ -73,8 +117,6 @@ dfile="%n.pid" --logfile="%n.log"
 - [장고(Django)에서 셀러리(Celery) 사용하기 1편](https://devlog.jwgo.kr/2019/07/02/using-celery-with-django-1/)
 - [장고(Django)에서 셀러리(Celery) 사용하기 2편](https://devlog.jwgo.kr/2019/07/02/using-celery-with-django-2/)
 - [장고(Django)에서 셀러리(Celery) 사용하기 3편](https://devlog.jwgo.kr/2019/07/02/using-celery-with-django-3/)
-- [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
-
 - [(Python) Django에서 Celery 사용하기(Broker-redis, docker-compose)](https://velog.io/@anjaekk/Python-Celery)
 - [Celery + Redis](https://velog.io/@nameunzz/Celery-Redis)
 - [First steps with Django (official site)](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html#using-celery-with-django)
@@ -82,15 +124,6 @@ dfile="%n.pid" --logfile="%n.log"
 - [Celery + Redis + Django \*\*\*](https://www.codingforentrepreneurs.com/blog/celery-redis-django/)
 - [(Celery) 무작정 시작하기 시리즈 with python](https://heodolf.tistory.com/73)
 - [분산 비동기 작업 처리를 위한 Celery 첫걸음](https://jonnung.dev/python/2018/12/22/celery-distributed-task-queue/#gsc.tab=0)
-
-# monitoring
-
-- [Monitoring and Management Guide](https://docs.celeryq.dev/en/latest/userguide/monitoring.html#guide-monitoring)
-
-# study reference
-
-## redis queue
-
 - [Redis Queue (RQ)](https://www.fullstackpython.com/redis-queue-rq.html)
 - [django-rq](https://github.com/rq/django-rq)
   - [Django RQ: A Simple App That Provides Django integration For RQ](https://morioh.com/p/1489e396a898)
@@ -106,3 +139,7 @@ dfile="%n.pid" --logfile="%n.log"
   - [kor-ver : Django Redis - caching, scheduling (task), pub/sub message que](https://velog.io/@qlgks1/Django-Redis-caching-scheduling-task-messaging-celery-async-worker)
 - [how-to-use-redis-for-caching-and-pub-sub-in-python](https://betterprogramming.pub/how-to-use-redis-for-caching-and-pub-sub-in-python-3851174f9fb0)
 - [redis publish / subscribe python example](https://blog.naver.com/PostView.naver?blogId=pareko&logNo=222528721348&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
+
+## monitoring
+
+- [Monitoring and Management Guide](https://docs.celeryq.dev/en/latest/userguide/monitoring.html#guide-monitoring)
